@@ -1,0 +1,35 @@
+name: test_gen
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  repo_annotation:
+    git:
+      url: https://github.com/alphaSoft99/repo_annotation.git
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  repo_generation:
+    git:
+      url: https://github.com/alphaSoft99/repo_generation.git
+
+  flutter_lints: ^1.0.0
+  dio: ^4.0.0
+  retrofit: ^2.0.1
+  logger: ^1.1.0
+  retrofit_generator: any
+
+flutter:
+
+  uses-material-design: true
